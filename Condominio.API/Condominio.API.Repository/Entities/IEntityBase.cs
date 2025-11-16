@@ -1,13 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Condominio.API.Repository.Entities
+﻿namespace Condominio.API.Repository.Entities
 {
     public interface IEntityBase
     {
         public Guid Id { get; set; }
+        public bool IsDeleted { get; set; }
     }
 }
