@@ -1,0 +1,85 @@
+// ...existing code...
+# Visual Studio / .NET
+.vs/
+.vscode/
+bin/
+obj/
+[Bb]in/
+[Oo]bj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build results
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+*.log
+
+# NuGet
+packages/
+*.nupkg
+project.lock.json
+project.fragment.lock.json
+
+# Publish / deployment
+publish/
+*/publish/
+*.deployproj
+
+# Rider / IntelliJ
+.idea/
+*.sln.iml
+
+# ReSharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# Visual Studio Code workspace
+.history/
+
+# ASP.NET / Secrets / Local settings
+secrets.json
+local.settings.json
+appsettings*.Local.json
+appsettings*.Secrets.json
+
+# Database / Migrations / EF
+*.db
+*.sqlite
+*.mdf
+*.ldf
+
+# Coverage / Test / Profiling
+coverage/
+*.profiler
+*.coverage
+
+# OS generated
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Backup / temporary
+*.bak
+*.tmp
+*.temp
+
+# Logs and diagnostic files
+*.log
+logs/
+
+# Docker
+docker-compose.override.yml
+
+# JetBrains Rider caches
+.idea/
+
+# Optional: ignore node modules if present (frontend assets)
+node_modules/
+
+# End

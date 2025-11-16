@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36221.1 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Condominio.API", "Condominio.API\Condominio.API.csproj", "{899D1307-71AC-4A64-85FA-44F31638BFB5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Condominio.API.Repository", "Condominio.API.Repository\Condominio.API.Repository.csproj", "{C3621F6C-ECD9-4CB4-BA08-6919EA7D37FB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{899D1307-71AC-4A64-85FA-44F31638BFB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{899D1307-71AC-4A64-85FA-44F31638BFB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{899D1307-71AC-4A64-85FA-44F31638BFB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{899D1307-71AC-4A64-85FA-44F31638BFB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3621F6C-ECD9-4CB4-BA08-6919EA7D37FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3621F6C-ECD9-4CB4-BA08-6919EA7D37FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3621F6C-ECD9-4CB4-BA08-6919EA7D37FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3621F6C-ECD9-4CB4-BA08-6919EA7D37FB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3CAA8A68-2D79-44ED-B0A0-60F3E69DC2E4}
+	EndGlobalSection
+EndGlobal
