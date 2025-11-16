@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace Condominio.API.Repository.Entities
 {
-    internal class PropertyOwner
+    public class PropertyOwner : IEntityBase
     {
+        public Guid Id { get; set; }
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+        public ICollection<Property> Properties { get; set; }
     }
 }

@@ -10,7 +10,7 @@ namespace Condominio.API.Repository.Context
 {
     public class SqlContext : DbContext
     {
-        public static string SchemaImporter = "dbo";
+        public static string SCHEMA = "dbo";
 
         public SqlContext(DbContextOptions<SqlContext>options)
             :base(options){ }
